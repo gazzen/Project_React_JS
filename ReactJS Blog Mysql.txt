@@ -1,0 +1,74 @@
+https://www.youtube.com/watch?v=zM93yZ_8SvE&list=PLj-4DlPRT48nfYgDK00oTjlDF4O0ZZyG8
+
+SAFAK github links
+
+
+https://github.com/safak/youtube2022/branches
+
+
+.....................
+For github CLONING no NEED code
+
+
+steps:
+1)cd client
+2)PS C:\Users\Admin\Desktop\blog\client> git clone --single-branch -b "react-mini" 
+
+Now paste github Links and (.)do and ENTER
+3)PS C:\Users\Admin\Desktop\blog\client> git clone --single-branch -b "react-mini" https://github.com/safak/youtube2022.git .
+
+
+after this to NAVIGATE uRL link install(https://reactrouter.com/en/main)
+npm add react-router --dom    
+.........
+if installation of router didn't work try this below
+npm install -S react-router-dom
+
+---search for OUTLET in ROUTER REACT
+
+--Now, install SASS for common CSS making
+npm install sass
+
+***For TOOLS bullet,bold,uderline
+
+npm install react-quill 
+
+import React, { useState } from 'react';
+import ReactQuill from 'react-quill';
+import 'react-quill/dist/quill.snow.css';
+
+function MyComponent() {
+  const [value, setValue] = useState('');
+
+  return <ReactQuill theme="snow" value={value} onChange={setValue} />;
+}
+
+FOR BACK END
+---for installing package.json
+npm init -y
+
+--to install MYSQL and node modules\
+npm add express mysql 
+nodemon
+....OR
+install express mysql nodemon
+sites:https://www.youtube.com/watch?v=fPuLnzSjPLE
+
+
+******************to encrypt password(https://www.npmjs.com/package/bcrypt)
+npm add bcryptjs
+
+Usage
+async (recommended)
+ var salt = bcrypt.genSaltSync(10);
+ var hash = bcrypt.hashSync('B4c0//',salt)  ; 
+
+---------------------------------
+to be sure/authentic delete own post not other
+going in Applicaton,Indexdb or Session
+
+npm add jsonwebtoken
+
+.............to store in COOKIES
+INSTALL cookie using ,
+npm add cookie-parser

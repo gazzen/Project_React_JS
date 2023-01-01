@@ -1,0 +1,55 @@
+git init
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/gazzen/Project-React-JS.git
+git push -u origin main
+
+-u=linked
+if -u is used do only ....git push
+
+git push orign new_branch:master(pointing to master branch)
+
+
+*******git log
+**git status
+********************************************
+making file and writing through terminal
+**vi index.txt 
+********************************************************************************
+----To see which branch is pointing where
+git log --oneline
+*************************************
+
+create NEW branch
+git checkout -b branch_name
+************************************
+to go from one branch to another or MOVE to next brANCH
+git checkout master
+OR
+git switch master
+++++++++++++++++++++++++++++++++++++++++++++++++
+
+to SEE the list of branches
+git branch
+++++++++++++++++++++++++++++++++++++++++++++++ 
+for removing file
+rm name.txt
+_____________________________________________________
+To create file
+touch name.txt
+____________________________________________________
+
+making new branch
+git switch -c branch_name
+
+creating new file
+touch file_name.txt
+
+****TO see all Types of COMMAND
+git help -a
+git help --all
+
+***To create BRANCH in Master
+git checkout -b branch_name
